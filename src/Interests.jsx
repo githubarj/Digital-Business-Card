@@ -4,10 +4,10 @@ import "./index.css"
 export default function Interests() {
   return (
     <div className="about">
-      <h1>Interets</h1>
-      <p>
-        Food expert. Music scholar. Reader. Internet fanatic. Bacon buff.
-        Entrepreneur. Travel geek. Pop culture ninja. Coffee fanatic.
+      <h2>Interets</h2>
+      <p className="text">
+        Music. Reader. Internet fanatic. Javascript.
+        Entrepreneur. Travel geek. Football fan. Programming.
       </p>
     </div>
   );

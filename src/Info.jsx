@@ -12,15 +12,15 @@ export default function Info() {
         alt="profile picture"
         className="profile-picture"
       />
-      <h1>Richard Jeremy Githuba</h1>
+      <h1>Richard J Githuba</h1>
       <h3>FullStack Developer</h3>
-      <p>githubarj.com</p>
+      <p className="website">githubarj.com</p>
       <div className="buttons">
-        <button>
-          <img src={mail} className="main-icon"></img>Email
+        <button className="mail-btn">
+          <img src={mail} className="icon"></img>Email
         </button>
-        <button>
-          <img src={linkedIn} className="linkedin-icon"></img>LinkedIn
+        <button className="linkedin-btn">
+          <img src={linkedIn} className="icon"></img>LinkedIn
         </button>
       </div>
     </div>
